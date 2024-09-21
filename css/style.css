@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+.hidden {
+  display: none;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 60%;
+  background-color: beige;
+}
+
+.button {
+  border: none;
+  background: none;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.main-todo {
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  color: brown;
+}
+
+.main-body {
+  margin: 70px 800px 0px 70px;
+  border-color: black;
+}
+
+.main-form {
+  background-color: beige;
+  border-radius: 15px;
+  padding: 20px 20px;
+  opacity: 80%;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 20px;
+  background-color: beige;
+  opacity: 80%;
+  margin-top: 10px;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
+.weather_time {
+  background-color: beige;
+  border-radius: 15px;
+  padding: 20px 20px;
+  opacity: 80%;
+  margin-top: 10px;
+}
+
+#weather {
+  font-size: 15px;
+}
